@@ -11,17 +11,14 @@
     var B = 0;
 
     for (var i = 0; i < answer.length; i++) {
-
-
-      // for(var k = 0; k < input.length; k++) {
-             
-      //    if(answer.charAt(i) === input.charAt(k)) {
-      //       if( i === k) {
-      //          A++;
-      //       }else{
-      //          B++;
-      //       }
-      //    }
+      for(var k = 0; k < input.length; k++) {
+         if(answer.charAt(i) === input.charAt(k)) {
+            if( i === k) {
+               A++;
+            }else{
+               B++;
+            }
+         }
      }
     }
     result = A + 'A' + B + 'B';

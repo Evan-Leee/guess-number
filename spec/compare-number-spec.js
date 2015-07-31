@@ -8,6 +8,7 @@ describe('CompareNumber',function() {
     var compareNumber ;
     beforeEach(function(){
       compareNumber = new CompareNumber();
+    
     });
 
     it('can return 0A0B',function (){
